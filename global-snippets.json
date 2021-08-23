@@ -1074,5 +1074,169 @@
 			"</div>"
 		],
 		"description": "b5-alert-dismiss"
+	},
+
+	"Bootstrap 5 Badge": {
+		"prefix": "b5-badge",
+		"body": [
+			"<${1|h1,h2,h3,h4,h5,h6|}>Example heading <span class=\"badge bg-secondary\">New</span></${1|h1,h2,h3,h4,h5,h6|}>"
+		],
+		"description": "b5-badge"
+	},
+
+	"Bootstrap 5 Badge Button": {
+		"prefix": "b5-badge-button",
+		"body": [
+			"<button type=\"button\" class=\"btn btn-primary\">",
+				"\tNotifications <span class=\"badge bg-secondary\">4</span>",
+			"</button>"
+		],
+		"description": "b5-badge-button"
+	},
+
+	"Bootstrap 5 Badge Positioned Count": {
+		"prefix": "b5-badge-positioned-count",
+		"body": [
+			"<button type=\"button\" class=\"btn btn-primary position-relative\">",
+				"\tInbox",
+				"\t<span class=\"position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger\">",
+					"\t\t99+",
+					"\t\t<span class=\"visually-hidden\">unread messages</span>",
+				"\t</span>",
+			"</button>"
+		],
+		"description": "b5-badge-positioned-count"
+	},
+
+	"Bootstrap 5 Badge Positioned No Count": {
+		"prefix": "b5-badge-positioned",
+		"body": [
+			"<button type=\"button\" class=\"btn btn-primary position-relative\">",
+				"\tProfile",
+				"\t<span class=\"position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle\">",
+					"\t\t<span class=\"visually-hidden\">New alerts</span>",
+				"\t</span>",
+			"</button>"
+		],
+		"description": "b5-badge-positioned"
+	},
+
+	"Bootstrap 5 Breadcrumb": {
+		"prefix": "b5-breadcrumb",
+		"body": [
+			"<nav aria-label=\"breadcrumb\">",
+				"\t<ol class=\"breadcrumb\">",
+					"\t\t<li class=\"breadcrumb-item\"><a href=\"#\">Home</a></li>",
+					"\t\t<li class=\"breadcrumb-item\"><a href=\"#\">Library</a></li>",
+					"\t\t<li class=\"breadcrumb-item active\" aria-current=\"page\">Data</li>",
+				"\t</ol>",
+			"</nav>"
+		],
+		"description": "b5-breadcrumb"
+	},
+
+	"Bootstrap 5 Breadcrumb Divider": {
+		"prefix": "b5-breadcrumb-divider",
+		"body": [
+			"<nav style=\"--bs-breadcrumb-divider: '${1:>}';\" aria-label=\"breadcrumb\">",
+				"\t<ol class=\"breadcrumb\">",
+					"\t\t<li class=\"breadcrumb-item\"><a href=\"#\">Home</a></li>",
+					"\t\t<li class=\"breadcrumb-item active\" aria-current=\"page\">Library</li>",
+				"\t</ol>",
+			"</nav>"
+		],
+		"description": "b5-breadcrumb-divider"
+	},
+
+	"Bootstrap 5 Buttons": {
+		"prefix": "b5-button",
+		"body": [
+			"<button type=\"button\" class=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|}\">Button</button>"
+		],
+		"description": "b5-button"
+	},
+
+	"Bootstrap 5 Outline Buttons": {
+		"prefix": "b5-outline-button",
+		"body": [
+			"<button type=\"button\" class=\"btn btn-outline-${1|primary,secondary,success,danger,warning,info,light,dark|}\">Outline Button</button>"
+		],
+		"description": "b5-outline-button"
+	},
+
+	"Bootstrap 5 Button Size": {
+		"prefix": "b5-button-size",
+		"body": [
+			"<button type=\"button\" class=\"btn btn-${2|primary,secondary,success,danger,warning,info,light,dark,link|} btn-${1|lg,sm|}\">Size button</button>"
+		],
+		"description": "b5-button-size"
+	},
+
+	"Bootstrap 5 Block Buttons": {
+		"prefix": "b5-button-block",
+		"body": [
+			"<div class=\"d-grid gap-2\">",
+				"\t<button class=\"btn btn-primary\" type=\"button\">Button</button>",
+				"\t<button class=\"btn btn-primary\" type=\"button\">Button</button>",
+			"</div>"
+		],
+		"description": "b5-button-block"
+	},
+
+	"Bootstrap 5 Responsive Block Buttons": {
+		"prefix": "b5-button-block-responsive",
+		"body": [
+			"<div class=\"d-grid gap-2 d-md-block\">",
+				"\t<button class=\"btn btn-primary\" type=\"button\">Button</button>",
+				"\t<button class=\"btn btn-primary\" type=\"button\">Button</button>",
+			"</div>"
+		],
+		"description": "b5-button-block-responsive"
+	},
+
+	"Bootstrap 5 Button Group": {
+		"prefix": "b5-button-group",
+		"body": [
+			"<div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">",
+				"\t<button type=\"button\" class=\"btn btn-primary\">Left</button>",
+				"\t<button type=\"button\" class=\"btn btn-primary\">Middle</button>",
+				"\t<button type=\"button\" class=\"btn btn-primary\">Right</button>",
+			"</div>"
+		],
+		"description": "b5-button-group"
+	},
+
+	"Bootstrap 5 Checkbox Button Group": {
+		"prefix": "b5-checkbox-button-group",
+		"body": [
+			"<div class=\"btn-group\" role=\"group\" aria-label=\"Basic checkbox toggle button group\">",
+				"\t<input type=\"checkbox\" class=\"btn-check\" id=\"btncheck1\" autocomplete=\"off\">",
+				"\t<label class=\"btn btn-outline-primary\" for=\"btncheck1\">Checkbox 1</label>",
+
+				"\n\t<input type=\"checkbox\" class=\"btn-check\" id=\"btncheck2\" autocomplete=\"off\">",
+				"\t<label class=\"btn btn-outline-primary\" for=\"btncheck2\">Checkbox 2</label>",
+
+				"\n\t<input type=\"checkbox\" class=\"btn-check\" id=\"btncheck3\" autocomplete=\"off\">",
+				"\t<label class=\"btn btn-outline-primary\" for=\"btncheck3\">Checkbox 3</label>",
+			"</div>"
+		],
+		"description": "b5-checkbox-button-group"
+	},
+
+	"Bootstrap 5 Radio Button Group": {
+		"prefix": "b5-radio-button-group",
+		"body": [
+			"<div class=\"btn-group\" role=\"group\" aria-label=\"Basic radio toggle button group\">",
+				"\t<input type=\"radio\" class=\"btn-check\" name=\"btnradio\" id=\"btnradio1\" autocomplete=\"off\" checked>",
+				"\t<label class=\"btn btn-outline-primary\" for=\"btnradio1\">Radio 1</label>",
+
+				"\n\t<input type=\"radio\" class=\"btn-check\" name=\"btnradio\" id=\"btnradio2\" autocomplete=\"off\">",
+				"\t<label class=\"btn btn-outline-primary\" for=\"btnradio2\">Radio 2</label>",
+
+				"\n\t<input type=\"radio\" class=\"btn-check\" name=\"btnradio\" id=\"btnradio3\" autocomplete=\"off\">",
+				"\t<label class=\"btn btn-outline-primary\" for=\"btnradio3\">Radio 3</label>",
+			"</div>"
+		],
+		"description": "b5-radio-button-group"
 	}
 }
