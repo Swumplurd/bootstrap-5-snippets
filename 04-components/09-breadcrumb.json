@@ -1,0 +1,28 @@
+{
+    "Bootstrap 5 Breadcrumb": {
+		"prefix": "b5-breadcrumb",
+		"body": [
+			"<nav aria-label=\"breadcrumb\">",
+				"\t<ol class=\"breadcrumb\">",
+					"\t\t<li class=\"breadcrumb-item\"><a href=\"#\">Home</a></li>",
+					"\t\t<li class=\"breadcrumb-item\"><a href=\"#\">Library</a></li>",
+					"\t\t<li class=\"breadcrumb-item active\" aria-current=\"page\">Data</li>",
+				"\t</ol>",
+			"</nav>"
+		],
+		"description": "b5-breadcrumb"
+	},
+
+	"Bootstrap 5 Breadcrumb Divider": {
+		"prefix": "b5-breadcrumb-divider",
+		"body": [
+			"<nav style=\"--bs-breadcrumb-divider: '${1:>}';\" aria-label=\"breadcrumb\">",
+				"\t<ol class=\"breadcrumb\">",
+					"\t\t<li class=\"breadcrumb-item\"><a href=\"#\">Home</a></li>",
+					"\t\t<li class=\"breadcrumb-item active\" aria-current=\"page\">Library</li>",
+				"\t</ol>",
+			"</nav>"
+		],
+		"description": "b5-breadcrumb-divider"
+	}
+}

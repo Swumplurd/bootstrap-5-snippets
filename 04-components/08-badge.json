@@ -1,0 +1,46 @@
+{
+    "Bootstrap 5 Badge": {
+		"prefix": "b5-badge",
+		"body": [
+			"<${1|h1,h2,h3,h4,h5,h6|}>Example heading <span class=\"badge bg-secondary\">New</span></${1|h1,h2,h3,h4,h5,h6|}>"
+		],
+		"description": "b5-badge"
+	},
+
+	"Bootstrap 5 Badge Button": {
+		"prefix": "b5-badge-button",
+		"body": [
+			"<button type=\"button\" class=\"btn btn-primary\">",
+				"\tNotifications <span class=\"badge bg-secondary\">4</span>",
+			"</button>"
+		],
+		"description": "b5-badge-button"
+	},
+
+	"Bootstrap 5 Badge Positioned Count": {
+		"prefix": "b5-badge-positioned-count",
+		"body": [
+			"<button type=\"button\" class=\"btn btn-primary position-relative\">",
+				"\tInbox",
+				"\t<span class=\"position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger\">",
+					"\t\t99+",
+					"\t\t<span class=\"visually-hidden\">unread messages</span>",
+				"\t</span>",
+			"</button>"
+		],
+		"description": "b5-badge-positioned-count"
+	},
+
+	"Bootstrap 5 Badge Positioned No Count": {
+		"prefix": "b5-badge-positioned",
+		"body": [
+			"<button type=\"button\" class=\"btn btn-primary position-relative\">",
+				"\tProfile",
+				"\t<span class=\"position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle\">",
+					"\t\t<span class=\"visually-hidden\">New alerts</span>",
+				"\t</span>",
+			"</button>"
+		],
+		"description": "b5-badge-positioned"
+	}
+}

@@ -1,0 +1,47 @@
+{
+    "Bootstrap 5 Buttons": {
+		"prefix": "b5-button",
+		"body": [
+			"<button type=\"button\" class=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|}\">Button</button>"
+		],
+		"description": "b5-button"
+	},
+
+	"Bootstrap 5 Outline Buttons": {
+		"prefix": "b5-outline-button",
+		"body": [
+			"<button type=\"button\" class=\"btn btn-outline-${1|primary,secondary,success,danger,warning,info,light,dark|}\">Outline Button</button>"
+		],
+		"description": "b5-outline-button"
+	},
+
+	"Bootstrap 5 Button Size": {
+		"prefix": "b5-button-size",
+		"body": [
+			"<button type=\"button\" class=\"btn btn-${2|primary,secondary,success,danger,warning,info,light,dark,link|} btn-${1|lg,sm|}\">Size button</button>"
+		],
+		"description": "b5-button-size"
+	},
+
+	"Bootstrap 5 Block Buttons": {
+		"prefix": "b5-button-block",
+		"body": [
+			"<div class=\"d-grid gap-2\">",
+				"\t<button class=\"btn btn-primary\" type=\"button\">Button</button>",
+				"\t<button class=\"btn btn-primary\" type=\"button\">Button</button>",
+			"</div>"
+		],
+		"description": "b5-button-block"
+	},
+
+	"Bootstrap 5 Responsive Block Buttons": {
+		"prefix": "b5-button-block-responsive",
+		"body": [
+			"<div class=\"d-grid gap-2 d-md-block\">",
+				"\t<button class=\"btn btn-primary\" type=\"button\">Button</button>",
+				"\t<button class=\"btn btn-primary\" type=\"button\">Button</button>",
+			"</div>"
+		],
+		"description": "b5-button-block-responsive"
+	}
+}
