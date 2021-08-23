@@ -1,0 +1,34 @@
+{
+    "Bootstrap 5 Alerts": {
+		"prefix": "b5-alert",
+		"body": [
+			"<div class=\"alert alert-${1|primary,secondary,success,danger,warning,info,light,dark|}\" role=\"alert\">",
+				"\t${2:A simple alert—check it out!}",
+			"</div>"
+		],
+		"description": "b5-alert"
+	},
+
+	"Bootstrap 5 Alert Link": {
+		"prefix": "b5-alert-link",
+		"body": [
+			"<div class=\"alert alert-${1|primary,secondary,success,danger,warning,info,light,dark|}\" role=\"alert\">",
+				"\t${2:A simple primary alert with }<a href=\"#\" class=\"alert-link\">${3:an example link}</a>${4:. Give it a click if you like.}",
+			"</div>"
+		],
+		"description": "b5-alert-link"
+	},
+
+	"Bootstrap 5 Alert Content": {
+		"prefix": "b5-alert-content",
+		"body": [
+			"<div class=\"alert alert-${1|primary,secondary,success,danger,warning,info,light,dark|}\" role=\"alert\">",
+				"\t<h4 class=\"alert-heading\">${2:Well done!}</h4>",
+				"\t<p>${3:Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.}</p>",
+				"\t<hr>",
+				"\t<p class=\"mb-0\">${4:Whenever you need to, be sure to use margin utilities to keep things nice and tidy.}</p>",
+			"</div>"
+		],
+		"description": "b5-alert-content"
+	}
+}

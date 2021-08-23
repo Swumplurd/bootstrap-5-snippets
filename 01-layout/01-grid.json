@@ -1,0 +1,56 @@
+{
+    "Bootstrap 5 Grid Default": {
+        "prefix": "b5-grid-default",
+        "body": [
+            "<div class=\"container\">",
+                "\t<div class=\"row\">",
+                    "\t\t<div class=\"col-${1|xs,sm,md,lg,xl,xxl|}-${2:1-12}\">",
+                        "\t\t\t${3}",
+                    "\t\t</div>",
+                    "\t\t${0}",
+                "\t</div>",
+            "</div>"
+        ],
+        "description": "b5-grid-default"
+    },
+
+    "Bootstrap 5 Container": {
+        "prefix": "b5-grid-container",
+        "body": [
+            "<div class=\"container-${1|sm,md,lg,xl,xxl|}\">",
+                "\t${0}",
+            "</div>"
+        ],
+        "description": "b5-grid-container"
+    },
+
+    "Bootstrap 5 Container Fluid": {
+        "prefix": "b5-grid-container-fluid",
+        "body": [
+            "<div class=\"container-fluid\">",
+                "\t${0}",
+            "</div>"
+        ],
+        "description": "b5-grid-container-fluid"
+    },
+
+    "Bootstrap 5 Row": {
+        "prefix": "b5-grid-row",
+        "body": [
+            "<div class=\"row\">",
+                "\t${0}",
+            "</div>"
+        ],
+        "description": "b5-grid-row"
+    },
+
+    "Bootstrap 5 Column": {
+        "prefix": "b5-grid-col",
+        "body": [
+            "<div class=\"col\">",
+                "\t${0}",
+            "</div>"
+        ],
+        "description": "b5-grid-col"
+    }
+}

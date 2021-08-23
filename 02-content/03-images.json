@@ -1,0 +1,17 @@
+{
+    "Bootstrap 5 Image Fluid": {
+		"prefix": "b5-img-fluid",
+		"body": [
+			"<img src=\"${1:https://dummyimage.com/800x300/dddddd/fff.png&text=Responsive+Image}\" class=\"img-fluid\" alt=\"${2:...}\">"
+		],
+		"description": "b5-image-fluid"
+	},
+
+	"Bootstrap 5 Image Thumbnail": {
+		"prefix": "b5-img-thumbnail",
+		"body": [
+			"<img src=\"${1:https://dummyimage.com/200x200/dddddd/fff.png&text=200x200}\" class=\"img-thumbnail\" alt=\"${2:...}\">"
+		],
+		"description": "b5-image-thumbnail"
+	}
+}

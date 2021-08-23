@@ -1,0 +1,64 @@
+{
+    "Bootstrap 5 Gutters": {
+        "prefix": "b5-gutters",
+        "body": [
+            "<div class=\"container\">",
+                "\t<div class=\"row g-${1|1,2,3,4,5|}\">",
+                    "\t\t<div class=\"col-6\">",
+                        "\t\t\t<div class=\"p-3 border bg-light\">${2:Custom column padding}</div>",
+                    "\t\t</div>",
+                    "\t\t<div class=\"col-6\">",
+                        "\t\t\t<div class=\"p-3 border bg-light\">${3:Custom column padding}</div>",
+                    "\t\t</div>",
+                    "\t\t<div class=\"col-6\">",
+                        "\t\t\t<div class=\"p-3 border bg-light\">${4:Custom column padding}</div>",
+                    "\t\t</div>",
+                    "\t\t<div class=\"col-6\">",
+                        "\t\t\t<div class=\"p-3 border bg-light\">${5:Custom column padding}</div>",
+                    "\t\t</div>",
+                "\t</div>",
+            "</div>"
+        ],
+        "description": "b5-gutters"
+    },
+
+    "Bootstrap 5 Horizontal Gutters": {
+        "prefix": "b5-gutters-x",
+        "body": [
+            "<div class=\"container\">",
+                "\t<div class=\"row gx-${1|1,2,3,4,5|}\">",
+                    "\t\t<div class=\"col-6\">",
+                        "\t\t\t<div class=\"p-3 border bg-light\">${2:Custom column padding}</div>",
+                    "\t\t</div>",
+                    "\t\t<div class=\"col-6\">",
+                        "\t\t\t<div class=\"p-3 border bg-light\">${3:Custom column padding}</div>",
+                    "\t\t</div>",
+                "\t</div>",
+            "</div>"
+        ],
+        "description": "b5-gutters-x"
+    },
+
+    "Bootstrap 5 Vertical Gutters": {
+        "prefix": "b5-gutters-y",
+        "body": [
+            "<div class=\"container\">",
+                "\t<div class=\"row gy-${1|1,2,3,4,5|}\">",
+                    "\t\t<div class=\"col-6\">",
+                        "\t\t\t<div class=\"p-3 border bg-light\">${2:Custom column padding}</div>",
+                    "\t\t</div>",
+                    "\t\t<div class=\"col-6\">",
+                        "\t\t\t<div class=\"p-3 border bg-light\">${3:Custom column padding}</div>",
+                    "\t\t</div>",
+                    "\t\t<div class=\"col-6\">",
+                        "\t\t\t<div class=\"p-3 border bg-light\">${4:Custom column padding}</div>",
+                    "\t\t</div>",
+                    "\t\t<div class=\"col-6\">",
+                        "\t\t\t<div class=\"p-3 border bg-light\">${5:Custom column padding}</div>",
+                    "\t\t</div>",
+                "\t</div>",
+            "</div>"
+        ],
+        "description": "b5-gutters-y"
+    }
+}
