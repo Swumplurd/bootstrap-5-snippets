@@ -1,5 +1,5 @@
 {
-    "Bootstrap 5 Alerts": {
+	"Bootstrap 5 Alert": {
 		"prefix": "b5-alert",
 		"body": [
 			"<div class=\"alert alert-${1|primary,secondary,success,danger,warning,info,light,dark|}\" role=\"alert\">",
@@ -30,5 +30,16 @@
 			"</div>"
 		],
 		"description": "b5-alert-content"
+	},
+
+	"Bootstrap 5 Alert Dismissing": {
+		"prefix": "b5-alert-dismiss",
+		"body": [
+			"<div class=\"alert alert-warning alert-dismissible fade show\" role=\"alert\">",
+				"\t<strong>${1:Holy guacamole!}</strong>${2: You should check in on some of those fields below.}",
+				"\t<button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>",
+			"</div>"
+		],
+		"description": "b5-alert-dismiss"
 	}
 }
