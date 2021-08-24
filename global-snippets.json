@@ -1,5 +1,4 @@
 {
-    /* getting-starter */
 	"Bootstrap 5 CDN": {
 		"prefix": "b5-$",
 		"body": [
@@ -20,7 +19,6 @@
 		"description": "b5-$"
 	},
 
-    /* layout */
 	"Bootstrap 5 Grid Default": {
 		"prefix": "b5-grid-default",
 		"body": [
@@ -139,7 +137,6 @@
 		"description": "b5-gutters-y"
 	},
 
-    /* content */
 	"Bootstrap 5 Table Default": {
 		"prefix": "b5-table-default",
 		"body": [
@@ -218,7 +215,6 @@
 		"description": "b5-image-thumbnail"
 	},
 
-    /* forms */
 	"Bootstrap 5 Email Form": {
 		"prefix": "b5-form-email",
 		"body": [
@@ -947,7 +943,6 @@
 		"description": "b5-form-float-select"
 	},
 
-    /* components */
 	"Bootstrap 5 Accordion Close": {
 		"prefix": "b5-accordion-close",
 		"body": [
