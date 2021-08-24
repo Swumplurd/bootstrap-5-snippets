@@ -1813,5 +1813,147 @@
 			"</div>"
 		],
 		"description": "b5-dropdown-anchor"
+	},
+
+	"Bootstrap 5 List Group": {
+		"prefix": "b5-list-group",
+		"body": [
+			"<ul class=\"list-group\">",
+				"\t<li class=\"list-group-item active\" aria-current=\"true\">An active item</li>",
+				"\t<li class=\"list-group-item\">A second item</li>",
+				"\t<li class=\"list-group-item\">A third item</li>",
+				"\t<li class=\"list-group-item\">A fourth item</li>",
+				"\t<li class=\"list-group-item disabled\" aria-disabled=\"true\">And a fifth one</li>",
+			"</ul>"
+		],
+		"description": "b5-list-group"
+	},
+
+	"Bootstrap 5 List Link": {
+		"prefix": "b5-list-link",
+		"body": [
+			"<div class=\"list-group\">",
+				"\t<a href=\"#\" class=\"list-group-item list-group-item-action active\" aria-current=\"true\">",
+					"\t\tThe current link item",
+				"\t</a>",
+				"\t<a href=\"#\" class=\"list-group-item list-group-item-action\">A second link item</a>",
+				"\t<a href=\"#\" class=\"list-group-item list-group-item-action\">A third link item</a>",
+				"\t<a href=\"#\" class=\"list-group-item list-group-item-action\">A fourth link item</a>",
+				"\t<a href=\"#\" class=\"list-group-item list-group-item-action disabled\" tabindex=\"-1\" aria-disabled=\"true\">A disabled link item</a>",
+			"</div>"
+		],
+		"description": "b5-list-link"
+	},
+
+	"Bootstrap 5 List Button": {
+		"prefix": "b5-list-button",
+		"body": [
+			"<div class=\"list-group\">",
+				"\t<button type=\"button\" class=\"list-group-item list-group-item-action active\" aria-current=\"true\">",
+					"\t\tThe current button",
+				"\t</button>",
+				"\t<button type=\"button\" class=\"list-group-item list-group-item-action\">A second item</button>",
+				"\t<button type=\"button\" class=\"list-group-item list-group-item-action\">A third button item</button>",
+				"\t<button type=\"button\" class=\"list-group-item list-group-item-action\">A fourth button item</button>",
+				"\t<button type=\"button\" class=\"list-group-item list-group-item-action\" disabled>A disabled button item</button>",
+			"</div>"
+		],
+		"description": "b5-list-button"
+	},
+
+	"Bootstrap 5 List Flush": {
+		"prefix": "b5-list-flush",
+		"body": [
+			"<ul class=\"list-group list-group-flush\">",
+				"\t<li class=\"list-group-item\">An item</li>",
+				"\t<li class=\"list-group-item\">A second item</li>",
+				"\t<li class=\"list-group-item\">A third item</li>",
+				"\t<li class=\"list-group-item\">A fourth item</li>",
+				"\t<li class=\"list-group-item\">And a fifth one</li>",
+			"</ul>"
+		],
+		"description": "b5-list-flush"
+	},
+
+	"Bootstrap 5 List Numbered": {
+		"prefix": "b5-list-numbered",
+		"body": [
+			"<ol class=\"list-group list-group-numbered\">",
+				"\t<li class=\"list-group-item\">Cras justo odio</li>",
+				"\t<li class=\"list-group-item\">Cras justo odio</li>",
+				"\t<li class=\"list-group-item\">Cras justo odio</li>",
+			"</ol>"
+		],
+		"description": "b5-list-numbered"
+	},
+
+	"Bootstrap 5 List Horizontal": {
+		"prefix": "b5-list-horizontal",
+		"body": [
+			"<ul class=\"list-group list-group-horizontal\">",
+				"\t<li class=\"list-group-item\">An item</li>",
+				"\t<li class=\"list-group-item\">A second item</li>",
+				"\t<li class=\"list-group-item\">A third item</li>",
+			"</ul>"
+		],
+		"description": "b5-list-horizontal"
+	},
+
+	"Bootstrap 5 List Checkbox": {
+		"prefix": "b5-list-checkbox",
+		"body": [
+			"<div class=\"list-group\">",
+				"\t<label class=\"list-group-item\">",
+					"\t\t<input class=\"form-check-input me-1\" type=\"checkbox\" value=\"\">",
+					"\t\tFirst checkbox",
+				"\t</label>",
+				"\t<label class=\"list-group-item\">",
+					"\t\t<input class=\"form-check-input me-1\" type=\"checkbox\" value=\"\">",
+					"\t\tSecond checkbox",
+				"\t</label>",
+				"\t<label class=\"list-group-item\">",
+					"\t\t<input class=\"form-check-input me-1\" type=\"checkbox\" value=\"\">",
+					"\t\tThird checkbox",
+				"\t</label>",
+				"\t<label class=\"list-group-item\">",
+					"\t\t<input class=\"form-check-input me-1\" type=\"checkbox\" value=\"\">",
+					"\t\tFourth checkbox",
+				"\t</label>",
+				"\t<label class=\"list-group-item\">",
+					"\t\t<input class=\"form-check-input me-1\" type=\"checkbox\" value=\"\">",
+					"\t\tFifth checkbox",
+				"\t</label>",
+			"</div>"
+		],
+		"description": "b5-list-checkbox"
+	},
+
+	"Bootstrap 5 List Radio": {
+		"prefix": "b5-list-radio",
+		"body": [
+			"<div class=\"list-group\">",
+				"\t<label class=\"list-group-item\">",
+					"\t\t<input class=\"form-check-input me-1\" type=\"radio\" name=\"list-radio\" value=\"\">",
+					"\t\tFirst checkbox",
+				"\t</label>",
+				"\t<label class=\"list-group-item\">",
+					"\t\t<input class=\"form-check-input me-1\" type=\"radio\" name=\"list-radio\" value=\"\">",
+					"\t\tSecond checkbox",
+				"\t</label>",
+				"\t<label class=\"list-group-item\">",
+					"\t\t<input class=\"form-check-input me-1\" type=\"radio\" name=\"list-radio\" value=\"\">",
+					"\t\tThird checkbox",
+				"\t</label>",
+				"\t<label class=\"list-group-item\">",
+					"\t\t<input class=\"form-check-input me-1\" type=\"radio\" name=\"list-radio\" value=\"\">",
+					"\t\tFourth checkbox",
+				"\t</label>",
+				"\t<label class=\"list-group-item\">",
+					"\t\t<input class=\"form-check-input me-1\" type=\"radio\" name=\"list-radio\" value=\"\">",
+					"\t\tFifth checkbox",
+				"\t</label>",
+			"</div>"
+		],
+		"description": "b5-list-radio"
 	}
 }
