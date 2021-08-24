@@ -1,0 +1,9 @@
+{
+	"Bootstrap 5 Close Button": {
+		"prefix": "b5-close-button",
+		"body": [
+			"<button type=\"button\" class=\"btn-close ${2| ,btn-close-white|}\"${1| , disabled|} aria-label=\"Close\"></button>"
+		],
+		"description": "b5-close-button"
+	}
+}

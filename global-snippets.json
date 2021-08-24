@@ -1723,5 +1723,61 @@
 			"</div>"
 		],
 		"description": "b5-carousel-crossfade"
+	},
+
+	"Bootstrap 5 Close Button": {
+		"prefix": "b5-close-button",
+		"body": [
+			"<button type=\"button\" class=\"btn-close ${2| ,btn-close-white|}\"${1| , disabled|} aria-label=\"Close\"></button>"
+		],
+		"description": "b5-close-button"
+	},
+
+	"Bootstrap 5 Collapse": {
+		"prefix": "b5-collapse",
+		"body": [
+			"<p>",
+				"\t<a class=\"btn btn-primary\" data-bs-toggle=\"collapse\" href=\"#collapseExample\" role=\"button\" aria-expanded=\"false\" aria-controls=\"collapseExample\">",
+					"\t\tLink with href",
+				"\t</a>",
+				"\t<button class=\"btn btn-primary\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#collapseExample\" aria-expanded=\"false\" aria-controls=\"collapseExample\">",
+					"\t\tButton with data-bs-target",
+				"\t</button>",
+			"</p>",
+			"<div class=\"collapse\" id=\"collapseExample\">",
+				"\t<div class=\"card card-body\">",
+					"\t\tSome placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.",
+				"\t</div>",
+			"</div>"
+		],
+		"description": "b5-collapse"
+	},
+
+	"Bootstrap 5 Collapse Multiple": {
+		"prefix": "b5-collapse-multiple",
+		"body": [
+			"<p>",
+				"\t<a class=\"btn btn-primary\" data-bs-toggle=\"collapse\" href=\"#multiCollapseExample1\" role=\"button\" aria-expanded=\"false\" aria-controls=\"multiCollapseExample1\">Toggle first element</a>",
+				"\t<button class=\"btn btn-primary\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#multiCollapseExample2\" aria-expanded=\"false\" aria-controls=\"multiCollapseExample2\">Toggle second element</button>",
+				"\t<button class=\"btn btn-primary\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\".multi-collapse\" aria-expanded=\"false\" aria-controls=\"multiCollapseExample1 multiCollapseExample2\">Toggle both elements</button>",
+			"</p>",
+			"<div class=\"row\">",
+				"\t<div class=\"col\">",
+					"\t\t<div class=\"collapse multi-collapse\" id=\"multiCollapseExample1\">",
+						"\t\t\t<div class=\"card card-body\">",
+							"\t\t\t\tSome placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.",
+						"\t\t\t</div>",
+					"\t\t</div>",
+				"\t</div>",
+				"\t<div class=\"col\">",
+					"\t\t<div class=\"collapse multi-collapse\" id=\"multiCollapseExample2\">",
+						"\t\t\t<div class=\"card card-body\">",
+							"\t\t\t\tSome placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.",
+						"\t\t\t</div>",
+					"\t\t</div>",
+				"\t</div>",
+			"</div>"
+		],
+		"description": "b5-collapse-multiple"
 	}
 }
