@@ -1950,5 +1950,65 @@
 			"</div>"
 		],
 		"description": "b5-list-radio"
+	},
+
+	"Bootstrap 5 Modal": {
+		"prefix": "b5-modal",
+		"body": [
+			"<!-- Button trigger modal -->",
+			"<button type=\"button\" class=\"btn btn-primary\" data-bs-toggle=\"modal\" data-bs-target=\"#exampleModal\">",
+				"\tLaunch demo modal",
+			"</button>",
+
+			"\n<!-- Modal -->",
+			"<div class=\"modal fade\" id=\"exampleModal\" tabindex=\"-1\" aria-labelledby=\"exampleModalLabel\" aria-hidden=\"true\">",
+				"\t<div class=\"modal-dialog ${1| ,modal-dialog-centered|} ${2| ,modal-dialog-scrollable|} ${3| ,modal-sm,modal-lg,modal-xl|} ${4| ,modal-fullscreen,modal-fullscreen-sm-down,modal-fullscreen-md-down,modal-fullscreen-lg-down,modal-fullscreen-xl-down,modal-fullscreen-xxl-down|}\">",
+					"\t\t<div class=\"modal-content\">",
+						"\t\t\t<div class=\"modal-header\">",
+							"\t\t\t\t<h5 class=\"modal-title\" id=\"exampleModalLabel\">Modal title</h5>",
+							"\t\t\t\t<button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"modal\" aria-label=\"Close\"></button>",
+						"\t\t\t</div>",
+						"\t\t\t<div class=\"modal-body\">",
+							"\t\t\t\t...",
+						"\t\t\t</div>",
+						"\t\t\t<div class=\"modal-footer\">",
+							"\t\t\t\t<button type=\"button\" class=\"btn btn-secondary\" data-bs-dismiss=\"modal\">Close</button>",
+							"\t\t\t\t<button type=\"button\" class=\"btn btn-primary\">Save changes</button>",
+						"\t\t\t</div>",
+					"\t\t</div>",
+				"\t</div>",
+			"</div>"
+		],
+		"description": "b5-modal"
+	},
+
+	"Bootstrap 5 Modal Static Backdrop": {
+		"prefix": "b5-modal-static-backdrop",
+		"body": [
+			"<!-- Button trigger modal -->",
+			"<button type=\"button\" class=\"btn btn-primary\" data-bs-toggle=\"modal\" data-bs-target=\"#staticBackdrop\">",
+				"\tLaunch static backdrop modal",
+			"</button>",
+
+			"\n<!-- Modal -->",
+			"<div class=\"modal fade\" id=\"staticBackdrop\" data-bs-backdrop=\"static\" data-bs-keyboard=\"false\" tabindex=\"-1\" aria-labelledby=\"staticBackdropLabel\" aria-hidden=\"true\">",
+				"\t<div class=\"modal-dialog ${1| ,modal-dialog-centered|} ${2| ,modal-dialog-scrollable|} ${3| ,modal-sm,modal-lg,modal-xl|} ${4| ,modal-fullscreen,modal-fullscreen-sm-down,modal-fullscreen-md-down,modal-fullscreen-lg-down,modal-fullscreen-xl-down,modal-fullscreen-xxl-down|}\">",
+					"\t\t<div class=\"modal-content\">",
+						"\t\t\t<div class=\"modal-header\">",
+							"\t\t\t\t<h5 class=\"modal-title\" id=\"staticBackdropLabel\">Modal title</h5>",
+							"\t\t\t\t<button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"modal\" aria-label=\"Close\"></button>",
+						"\t\t\t</div>",
+						"\t\t\t<div class=\"modal-body\">",
+							"\t\t\t\t...",
+						"\t\t\t</div>",
+						"\t\t\t<div class=\"modal-footer\">",
+							"\t\t\t\t<button type=\"button\" class=\"btn btn-secondary\" data-bs-dismiss=\"modal\">Close</button>",
+							"\t\t\t\t<button type=\"button\" class=\"btn btn-primary\">Understood</button>",
+						"\t\t\t</div>",
+					"\t\t</div>",
+				"\t</div>",
+			"</div>"
+		],
+		"description": "b5-modal-static-backdrop"
 	}
 }
