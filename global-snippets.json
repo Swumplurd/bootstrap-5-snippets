@@ -1238,5 +1238,336 @@
 			"</div>"
 		],
 		"description": "b5-radio-button-group"
+	},
+
+	"Bootstrap 5 Card": {
+		"prefix": "b5-card",
+		"body": [
+			"<div class=\"card\" style=\"width: 18rem;\">",
+				"\t<img src=\"https://dummyimage.com/180x120/dbdbdb/787878.png&text=Image+cap\" class=\"card-img-top\" alt=\"...\">",
+				"\t<div class=\"card-body\">",
+					"\t\t<h5 class=\"card-title\">${1:Card title}</h5>",
+					"\t\t<p class=\"card-text\">${2:Some quick example text to build on the card title and make up the bulk of the card's content.}</p>",
+					"\t\t<a href=\"#\" class=\"btn btn-primary\">${3:Go somewhere}</a>",
+				"\t</div>",
+			"</div>"
+		],
+		"description": "b5-card"
+	},
+
+	"Bootstrap 5 Card Image": {
+		"prefix": "b5-card-image",
+		"body": [
+			"<div class=\"card\" style=\"width: 18rem;\">",
+				"\t<img src=\"https://dummyimage.com/180x120/dbdbdb/787878.png&text=Image+cap\" class=\"card-img-top\" alt=\"...\">",
+				"\t<div class=\"card-body\">",
+					"\t\t<p class=\"card-text\">${1:Some quick example text to build on the card title and make up the bulk of the card's content.}</p>",
+				"\t</div>",
+			"</div>"
+		],
+		"description": "b5-card-image"
+	},
+
+	"Bootstrap 5 Card List": {
+		"prefix": "b5-card-list",
+		"body": [
+			"<div class=\"card\" style=\"width: 18rem;\">",
+				"\t<img src=\"https://dummyimage.com/180x120/dbdbdb/787878.png&text=Image+cap\" class=\"card-img-top\" alt=\"...\">",
+				"\t<div class=\"card-body\">",
+					"\t\t<h5 class=\"card-title\">Card title</h5>",
+					"\t\t<p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>",
+				"\t</div>",
+				"\t<ul class=\"list-group list-group-flush\">",
+					"\t\t<li class=\"list-group-item\">An item</li>",
+					"\t\t<li class=\"list-group-item\">A second item</li>",
+					"\t\t<li class=\"list-group-item\">A third item</li>",
+				"\t</ul>",
+				"\t<div class=\"card-body\">",
+					"\t\t<a href=\"#\" class=\"card-link\">Card link</a>",
+					"\t\t<a href=\"#\" class=\"card-link\">Another link</a>",
+				"\t</div>",
+			"</div>"
+		],
+		"description": "b5-card-list"
+	},
+
+	"Bootstrap 5 Card Navigation Tabs": {
+		"prefix": "b5-card-nav-tab",
+		"body": [
+			"<div class=\"card text-center\">",
+				"\t<div class=\"card-header\">",
+					"\t\t<ul class=\"nav nav-tabs card-header-tabs\">",
+					"\t\t<li class=\"nav-item\">",
+						"\t\t\t<a class=\"nav-link active\" aria-current=\"true\" href=\"#\">Active</a>",
+					"\t\t</li>",
+					"\t\t<li class=\"nav-item\">",
+						"\t\t\t<a class=\"nav-link\" href=\"#\">Link</a>",
+					"\t\t</li>",
+					"\t\t<li class=\"nav-item\">",
+						"\t\t\t<a class=\"nav-link disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">Disabled</a>",
+					"\t\t</li>",
+					"\t\t</ul>",
+				"\t</div>",
+				"\t<div class=\"card-body\">",
+					"\t\t<h5 class=\"card-title\">Special title treatment</h5>",
+					"\t\t<p class=\"card-text\">With supporting text below as a natural lead-in to additional content.</p>",
+					"\t\t<a href=\"#\" class=\"btn btn-primary\">Go somewhere</a>",
+				"\t</div>",
+			"</div>"
+		],
+		"description": "b5-card-nav-tab"
+	},
+
+	"Bootstrap 5 Card Navigation Pills": {
+		"prefix": "b5-card-nav-pills",
+		"body": [
+			"<div class=\"card text-center\">",
+				"\t<div class=\"card-header\">",
+					"\t\t<ul class=\"nav nav-pills card-header-pills\">",
+					"\t\t<li class=\"nav-item\">",
+						"\t\t\t<a class=\"nav-link active\" href=\"#\">Active</a>",
+					"\t\t</li>",
+					"\t\t<li class=\"nav-item\">",
+						"\t\t\t<a class=\"nav-link\" href=\"#\">Link</a>",
+					"\t\t</li>",
+					"\t\t<li class=\"nav-item\">",
+						"\t\t\t<a class=\"nav-link disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">Disabled</a>",
+					"\t\t</li>",
+					"\t\t</ul>",
+				"\t</div>",
+				"\t<div class=\"card-body\">",
+					"\t\t<h5 class=\"card-title\">Special title treatment</h5>",
+					"\t\t<p class=\"card-text\">With supporting text below as a natural lead-in to additional content.</p>",
+					"\t\t<a href=\"#\" class=\"btn btn-primary\">Go somewhere</a>",
+				"\t</div>",
+			"</div>"
+		],
+		"description": "b5-card-nav-pills"
+	},
+
+	"Bootstrap 5 Card Image Overlay": {
+		"prefix": "b5-card-image-overlay",
+		"body": [
+			"<div class=\"card bg-dark text-white\">",
+				"\t<img src=\"https://dummyimage.com/720x240/343434/454545.png&text=Image+cap\" class=\"card-img\" alt=\"...\">",
+				"\t<div class=\"card-img-overlay\">",
+					"\t\t<h5 class=\"card-title\">${1:Card title}</h5>",
+					"\t\t<p class=\"card-text\">${2:This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.}</p>",
+					"\t\t<p class=\"card-text\">${3:Last updated 3 mins ago}</p>",
+				"\t</div>",
+			"</div>"
+		],
+		"description": "b5-card-image-overlay"
+	},
+
+	"Bootstrap 5 Card Horizontal": {
+		"prefix": "b5-card-horizontal",
+		"body": [
+			"<div class=\"card mb-3\" style=\"max-width: 540px;\">",
+				"\t<div class=\"row g-0\">",
+					"\t\t<div class=\"col-md-4\">",
+						"\t\t\t<img src=\"https://dummyimage.com/540x1024/919191/7a7a7a&text=image\" class=\"img-fluid rounded-start\" alt=\"...\">",
+					"\t\t</div>",
+					"\t\t<div class=\"col-md-8\">",
+						"\t\t\t<div class=\"card-body\">",
+							"\t\t\t\t<h5 class=\"card-title\">${1:Card title}</h5>",
+							"\t\t\t\t<p class=\"card-text\">${2:This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.}</p>",
+							"\t\t\t\t<p class=\"card-text\"><small class=\"text-muted\">${3:Last updated 3 mins ago}</small></p>",
+						"\t\t\t</div>",
+					"\t\t</div>",
+				"\t</div>",
+			"</div>"
+		],
+		"description": "b5-card-horizontal"
+	},
+
+	"Bootstrap 5 Card Color": {
+		"prefix": "b5-card-color",
+		"body": [
+			"<div class=\"card text-${2|white,dark|} bg-${1|primary,secondary,success,danger,warning,info,light,dark|} mb-3\" style=\"max-width: 18rem;\">",
+				"\t<div class=\"card-header\">${3:Header}</div>",
+				"\t<div class=\"card-body\">",
+					"\t\t<h5 class=\"card-title\">${4:Primary card title}</h5>",
+					"\t\t<p class=\"card-text\">${5:Some quick example text to build on the card title and make up the bulk of the card's content.}</p>",
+				"\t</div>",
+			"</div>"
+		],
+		"description": "b5-card-color"
+	},
+
+	"Bootstrap 5 Card Border": {
+		"prefix": "b5-card-border",
+		"body": [
+			"<div class=\"card border-${1|primary,secondary,success,danger,warning,info,light,dark|} mb-3\" style=\"max-width: 18rem;\">",
+				"\t<div class=\"card-header\">${3:Header}</div>",
+				"\t<div class=\"card-body text-${2|primary,secondary,success,danger,warning,info,light,dark|}\">",
+					"\t\t<h5 class=\"card-title\">${4:Card title}</h5>",
+					"\t\t<p class=\"card-text\">${5:Some quick example text to build on the card title and make up the bulk of the card's content.}</p>",
+				"\t</div>",
+			"</div>"
+		],
+		"description": "b5-card-border"
+	},
+
+	"Bootstrap 5 Card Group": {
+		"prefix": "b5-card-group",
+		"body": [
+			"<div class=\"card-group\">",
+				"\t<div class=\"card\">",
+					"\t\t<img src=\"https://dummyimage.com/180x120/dbdbdb/787878.png&text=Image+cap\" class=\"card-img-top\" alt=\"...\">",
+					"\t\t<div class=\"card-body\">",
+						"\t\t\t<h5 class=\"card-title\">Card title</h5>",
+						"\t\t\t<p class=\"card-text\">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>",
+						"\t\t\t<p class=\"card-text\"><small class=\"text-muted\">Last updated 3 mins ago</small></p>",
+					"\t\t</div>",
+				"\t</div>",
+				"\t<div class=\"card\">",
+					"\t\t<img src=\"https://dummyimage.com/180x120/dbdbdb/787878.png&text=Image+cap\" class=\"card-img-top\" alt=\"...\">",
+					"\t\t<div class=\"card-body\">",
+						"\t\t\t<h5 class=\"card-title\">Card title</h5>",
+						"\t\t\t<p class=\"card-text\">This card has supporting text below as a natural lead-in to additional content.</p>",
+						"\t\t\t<p class=\"card-text\"><small class=\"text-muted\">Last updated 3 mins ago</small></p>",
+					"\t\t</div>",
+				"\t</div>",
+				"\t<div class=\"card\">",
+					"\t\t<img src=\"https://dummyimage.com/180x120/dbdbdb/787878.png&text=Image+cap\" class=\"card-img-top\" alt=\"...\">",
+					"\t\t<div class=\"card-body\">",
+						"\t\t\t<h5 class=\"card-title\">Card title</h5>",
+						"\t\t\t<p class=\"card-text\">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>",
+						"\t\t\t<p class=\"card-text\"><small class=\"text-muted\">Last updated 3 mins ago</small></p>",
+					"\t\t</div>",
+				"\t</div>",
+			"</div>"
+		],
+		"description": "b5-card-group"
+	},
+
+	"Bootstrap 5 Card Group Footer": {
+		"prefix": "b5-card-group-footer",
+		"body": [
+			"<div class=\"card-group\">",
+				"\t<div class=\"card\">",
+					"\t\t<img src=\"https://dummyimage.com/180x120/dbdbdb/787878.png&text=Image+cap\" class=\"card-img-top\" alt=\"...\">",
+					"\t\t<div class=\"card-body\">",
+						"\t\t\t<h5 class=\"card-title\">Card title</h5>",
+						"\t\t\t<p class=\"card-text\">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>",
+					"\t\t</div>",
+					"\t\t<div class=\"card-footer\">",
+						"\t\t\t<small class=\"text-muted\">Last updated 3 mins ago</small>",
+					"\t\t</div>",
+				"\t</div>",
+				"\t<div class=\"card\">",
+					"\t\t<img src=\"https://dummyimage.com/180x120/dbdbdb/787878.png&text=Image+cap\" class=\"card-img-top\" alt=\"...\">",
+					"\t\t<div class=\"card-body\">",
+						"\t\t\t<h5 class=\"card-title\">Card title</h5>",
+						"\t\t\t<p class=\"card-text\">This card has supporting text below as a natural lead-in to additional content.</p>",
+					"\t\t</div>",
+					"\t\t<div class=\"card-footer\">",
+						"\t\t\t<small class=\"text-muted\">Last updated 3 mins ago</small>",
+					"\t\t</div>",
+				"\t</div>",
+				"\t<div class=\"card\">",
+					"\t\t<img src=\"https://dummyimage.com/180x120/dbdbdb/787878.png&text=Image+cap\" class=\"card-img-top\" alt=\"...\">",
+					"\t\t<div class=\"card-body\">",
+						"\t\t\t<h5 class=\"card-title\">Card title</h5>",
+						"\t\t\t<p class=\"card-text\">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>",
+					"\t\t</div>",
+					"\t\t<div class=\"card-footer\">",
+						"\t\t\t<small class=\"text-muted\">Last updated 3 mins ago</small>",
+					"\t\t</div>",
+				"\t</div>",
+			"</div>"
+		],
+		"description": "b5-card-group-footer"
+	},
+
+	"Bootstrap 5 Card Grid": {
+		"prefix": "b5-card-grid",
+		"body": [
+			"<div class=\"row row-cols-1 row-cols-md-2 g-4\">",
+				"\t<div class=\"col\">",
+					"\t\t<div class=\"card\">",
+						"\t\t\t<img src=\"https://dummyimage.com/180x120/dbdbdb/787878.png&text=Image+cap\" class=\"card-img-top\" alt=\"...\">",
+						"\t\t\t<div class=\"card-body\">",
+							"<h5 class=\"card-title\">Card title</h5>",
+							"<p class=\"card-text\">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>",
+						"\t\t\t</div>",
+					"\t\t</div>",
+				"\t</div>",
+				"\t<div class=\"col\">",
+					"\t\t<div class=\"card\">",
+						"\t\t\t<img src=\"https://dummyimage.com/180x120/dbdbdb/787878.png&text=Image+cap\" class=\"card-img-top\" alt=\"...\">",
+						"\t\t\t<div class=\"card-body\">",
+							"\t\t\t\t<h5 class=\"card-title\">Card title</h5>",
+							"\t\t\t\t<p class=\"card-text\">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>",
+						"\t\t\t</div>",
+					"\t\t</div>",
+				"\t</div>",
+				"\t<div class=\"col\">",
+					"\t\t<div class=\"card\">",
+						"\t\t\t<img src=\"https://dummyimage.com/180x120/dbdbdb/787878.png&text=Image+cap\" class=\"card-img-top\" alt=\"...\">",
+						"\t\t\t<div class=\"card-body\">",
+							"\t\t\t\t<h5 class=\"card-title\">Card title</h5>",
+							"\t\t\t\t<p class=\"card-text\">This is a longer card with supporting text below as a natural lead-in to additional content.</p>",
+						"\t\t\t</div>",
+					"\t\t</div>",
+				"\t</div>",
+				"\t<div class=\"col\">",
+					"\t\t<div class=\"card\">",
+						"\t\t\t<img src=\"https://dummyimage.com/180x120/dbdbdb/787878.png&text=Image+cap\" class=\"card-img-top\" alt=\"...\">",
+						"\t\t\t<div class=\"card-body\">",
+							"\t\t\t\t<h5 class=\"card-title\">Card title</h5>",
+							"\t\t\t\t<p class=\"card-text\">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>",
+						"\t\t\t</div>",
+					"\t\t</div>",
+				"\t</div>",
+			"</div>"
+		],
+		"description": "b5-card-grid"
+	},
+
+	"Bootstrap 5 Card Grid Footer": {
+		"prefix": "b5-card-grid-footer",
+		"body": [
+			"<div class=\"row row-cols-1 row-cols-md-3 g-4\">",
+				"\t<div class=\"col\">",
+					"\t\t<div class=\"card h-100\">",
+						"\t\t\t<img src=\"https://dummyimage.com/180x120/dbdbdb/787878.png&text=Image+cap\" class=\"card-img-top\" alt=\"...\">",
+						"\t\t\t<div class=\"card-body\">",
+							"\t\t\t\t<h5 class=\"card-title\">Card title</h5>",
+							"\t\t\t\t<p class=\"card-text\">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>",
+						"\t\t\t</div>",
+						"\t\t\t<div class=\"card-footer\">",
+							"\t\t\t\t<small class=\"text-muted\">Last updated 3 mins ago</small>",
+						"\t\t\t</div>",
+					"\t\t</div>",
+				"\t</div>",
+				"\t<div class=\"col\">",
+					"\t\t<div class=\"card h-100\">",
+						"\t\t\t<img src=\"https://dummyimage.com/180x120/dbdbdb/787878.png&text=Image+cap\" class=\"card-img-top\" alt=\"...\">",
+						"\t\t\t<div class=\"card-body\">",
+							"\t\t\t\t<h5 class=\"card-title\">Card title</h5>",
+							"\t\t\t\t<p class=\"card-text\">This card has supporting text below as a natural lead-in to additional content.</p>",
+						"\t\t\t</div>",
+						"\t\t\t<div class=\"card-footer\">",
+							"\t\t\t\t<small class=\"text-muted\">Last updated 3 mins ago</small>",
+						"\t\t\t</div>",
+					"\t\t</div>",
+				"\t</div>",
+				"\t<div class=\"col\">",
+					"\t\t<div class=\"card h-100\">",
+						"\t\t\t<img src=\"https://dummyimage.com/180x120/dbdbdb/787878.png&text=Image+cap\" class=\"card-img-top\" alt=\"...\">",
+						"\t\t\t<div class=\"card-body\">",
+							"\t\t\t\t<h5 class=\"card-title\">Card title</h5>",
+							"\t\t\t\t<p class=\"card-text\">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>",
+						"\t\t\t</div>",
+						"\t\t\t<div class=\"card-footer\">",
+							"\t\t\t\t<small class=\"text-muted\">Last updated 3 mins ago</small>",
+						"\t\t\t</div>",
+					"\t\t</div>",
+				"\t</div>",
+			"</div>"
+		],
+		"description": "b5-card-grid-footer"
 	}
 }
