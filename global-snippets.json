@@ -1779,5 +1779,39 @@
 			"</div>"
 		],
 		"description": "b5-collapse-multiple"
+	},
+
+	"Bootstrap 5 Dropdown Button": {
+		"prefix": "b5-dropdown-button",
+		"body": [
+			"<div class=\"dropdown\">",
+				"\t<button class=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|} dropdown-toggle\" type=\"button\" id=\"dropdownMenuButton1\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">",
+					"\t\tDropdown button",
+				"\t</button>",
+				"\t<ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenuButton1\">",
+					"\t\t<li><a class=\"dropdown-item\" href=\"#\">Action</a></li>",
+					"\t\t<li><a class=\"dropdown-item\" href=\"#\">Another action</a></li>",
+					"\t\t<li><a class=\"dropdown-item\" href=\"#\">Something else here</a></li>",
+				"\t</ul>",
+			"</div>"
+		],
+		"description": "b5-dropdown-button"
+	},
+
+	"Bootstrap 5 Dropdown Anchor": {
+		"prefix": "b5-dropdown-anchor",
+		"body": [
+			"<div class=\"dropdown\">",
+				"\t<a class=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|} dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">",
+					"\t\tDropdown link",
+				"\t</a>",
+				"\t<ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenuLink\">",
+					"\t\t<li><a class=\"dropdown-item\" href=\"#\">Action</a></li>",
+					"\t\t<li><a class=\"dropdown-item\" href=\"#\">Another action</a></li>",
+					"\t\t<li><a class=\"dropdown-item\" href=\"#\">Something else here</a></li>",
+				"\t</ul>",
+			"</div>"
+		],
+		"description": "b5-dropdown-anchor"
 	}
 }
