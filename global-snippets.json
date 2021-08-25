@@ -2086,5 +2086,225 @@
 			"</ul>"
 		],
 		"description": "b5-nav-pill"
+	},
+
+	"Bootstrap 5 Navbar": {
+		"prefix": "b5-navbar",
+		"body": [
+			"<nav class=\"navbar navbar-expand-lg navbar-${1|light,dark|} bg-${2|primary,secondary,success,danger,warning,info,light,dark|}\">",
+				"\t<div class=\"container-fluid\">",
+					"\t\t<a class=\"navbar-brand\" href=\"#\">Navbar</a>",
+					"\t\t<button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">",
+						"\t\t\t<span class=\"navbar-toggler-icon\"></span>",
+					"\t\t</button>",
+					"\t\t<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">",
+						"\t\t\t<ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">",
+							"\t\t\t\t<li class=\"nav-item\">",
+								"\t\t\t\t\t<a class=\"nav-link active\" aria-current=\"page\" href=\"#\">Home</a>",
+							"\t\t\t\t</li>",
+							"\t\t\t\t<li class=\"nav-item\">",
+								"\t\t\t\t\t<a class=\"nav-link\" href=\"#\">Link</a>",
+							"\t\t\t\t</li>",
+							"\t\t\t\t<li class=\"nav-item dropdown\">",
+								"\t\t\t\t\t<a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">",
+									"\t\t\t\t\t\tDropdown",
+								"\t\t\t\t\t</a>",
+								"\t\t\t\t\t<ul class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">",
+									"\t\t\t\t\t\t<li><a class=\"dropdown-item\" href=\"#\">Action</a></li>",
+									"\t\t\t\t\t\t<li><a class=\"dropdown-item\" href=\"#\">Another action</a></li>",
+									"\t\t\t\t\t\t<li><hr class=\"dropdown-divider\"></li>",
+									"\t\t\t\t\t\t<li><a class=\"dropdown-item\" href=\"#\">Something else here</a></li>",
+								"\t\t\t\t\t</ul>",
+							"\t\t\t\t</li>",
+							"\t\t\t\t<li class=\"nav-item\">",
+								"\t\t\t\t\t<a class=\"nav-link disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">Disabled</a>",
+							"\t\t\t\t</li>",
+						"\t\t\t</ul>",
+						"\t\t\t<form class=\"d-flex\">",
+							"\t\t\t\t<input class=\"form-control me-2\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">",
+							"\t\t\t\t<button class=\"btn btn-outline-success\" type=\"submit\">Search</button>",
+						"\t\t\t</form>",
+					"\t\t</div>",
+				"\t</div>",
+			"</nav>"
+		],
+		"description": "b5-navbar"
+	},
+
+	"Bootstrap 5 Offcanvas": {
+		"prefix": "b5-offcanvas",
+		"body": [
+			"<a class=\"btn btn-primary\" data-bs-toggle=\"offcanvas\" href=\"#offcanvasExample\" role=\"button\" aria-controls=\"offcanvasExample\">",
+				"\tLink with href",
+			"</a>",
+			"<button class=\"btn btn-primary\" type=\"button\" data-bs-toggle=\"offcanvas\" data-bs-target=\"#offcanvasExample\" aria-controls=\"offcanvasExample\">",
+				"\tButton with data-bs-target",
+			"</button>",
+
+			"\n<div class=\"offcanvas offcanvas-${1|start,end,top,bottom|}\" data-bs-scroll=\"${2|true,false|}\" data-bs-backdrop=\"${3|true,false|}\" tabindex=\"-1\" id=\"offcanvasExample\" aria-labelledby=\"offcanvasExampleLabel\">",
+				"\t<div class=\"offcanvas-header\">",
+					"\t\t<h5 class=\"offcanvas-title\" id=\"offcanvasExampleLabel\">Offcanvas</h5>",
+					"\t\t<button type=\"button\" class=\"btn-close text-reset\" data-bs-dismiss=\"offcanvas\" aria-label=\"Close\"></button>",
+				"\t</div>",
+				"\t<div class=\"offcanvas-body\">",
+					"\t\t<div>",
+						"\t\t\tSome text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.",
+					"\t\t</div>",
+					"\t\t<div class=\"dropdown mt-3\">",
+						"\t\t\t<button class=\"btn btn-secondary dropdown-toggle\" type=\"button\" id=\"dropdownMenuButton\" data-bs-toggle=\"dropdown\">",
+							"\t\t\t\tDropdown button",
+						"\t\t\t</button>",
+						"\t\t\t<ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenuButton\">",
+							"\t\t\t\t<li><a class=\"dropdown-item\" href=\"#\">Action</a></li>",
+							"\t\t\t\t<li><a class=\"dropdown-item\" href=\"#\">Another action</a></li>",
+							"\t\t\t\t<li><a class=\"dropdown-item\" href=\"#\">Something else here</a></li>",
+						"\t\t\t</ul>",
+					"\t\t</div>",
+				"\t</div>",
+			"</div>"
+		],
+		"description": "b5-offcanvas"
+	},
+
+	"Bootstrap 5 Pagination": {
+		"prefix": "b5-pagination",
+		"body": [
+			"<nav aria-label=\"Page navigation example\">",
+				"\t<ul class=\"pagination justify-content-${1|start,center,end|}\">",
+					"\t\t<li class=\"page-item disabled\">",
+						"\t\t\t<a class=\"page-link\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">Previous</a>",
+					"\t\t</li>",
+					"\t\t<li class=\"page-item active\"><a class=\"page-link\" href=\"#\">1</a></li>",
+					"\t\t<li class=\"page-item\"><a class=\"page-link\" href=\"#\">2</a></li>",
+					"\t\t<li class=\"page-item\"><a class=\"page-link\" href=\"#\">3</a></li>",
+					"\t\t<li class=\"page-item\">",
+						"\t\t\t<a class=\"page-link\" href=\"#\">Next</a>",
+					"\t\t</li>",
+				"\t</ul>",
+			"</nav>"
+		],
+		"description": "b5-pagination"
+	},
+
+	"Bootstrap 5 Popover": {
+		"prefix": "b5-popover",
+		"body": [
+			"<button type=\"button\" class=\"btn btn-primary\" data-bs-toggle=\"popover\" data-bs-placement=\"${1|top,right,bottom,left|}\" title=\"${2:Popover title}\" data-bs-content=\"${3:And here's some amazing content. It's very engaging. Right?}\">${4:Click to toggle popover}</button>",
+
+			"\n<!-- Call this script after bootstrap.bundle.min.js CDN -->",
+			"<script>",
+				"\tvar popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle=\"popover\"]'));",
+				"\tvar popoverList = popoverTriggerList.map(function (popoverTriggerEl) {",
+					"\t\treturn new bootstrap.Popover(popoverTriggerEl);",
+				"\t});",
+			"</script>"
+		],
+		"description": "b5-popover"
+	},
+
+	"Bootstrap 5 Popover Dismissible": {
+		"prefix": "b5-popover-dismissible",
+		"body": [
+			"<a tabindex=\"0\" class=\"btn btn-primary\" role=\"button\" data-bs-toggle=\"popover\" data-bs-placement=\"${1|top,right,bottom,left|}\" data-bs-trigger=\"focus\" title=\"${2:Dismissible popover}\" data-bs-content=\"${3:And here's some amazing content. It's very engaging. Right?}\">${4:Dismissible popover}</a>",
+
+			"\n<!-- Call this script after bootstrap.bundle.min.js CDN -->",
+			"<script>",
+				"\tvar popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle=\"popover\"]'));",
+				"\tvar popoverList = popoverTriggerList.map(function (popoverTriggerEl) {",
+					"\t\treturn new bootstrap.Popover(popoverTriggerEl);",
+				"\t});",
+			"</script>"
+		],
+		"description": "b5-popover-dismissible"
+	},
+
+	"Bootstrap 5 Popover Disable": {
+		"prefix": "b5-popover-disable",
+		"body": [
+			"<span class=\"d-inline-block\" tabindex=\"0\" data-bs-toggle=\"popover\" data-bs-placement=\"${1|top,right,bottom,left|}\" data-bs-trigger=\"hover focus\" data-bs-content=\"${2:Disabled popover}\">",
+				"\t<button class=\"btn btn-primary\" type=\"button\" disabled>Disabled button</button>",
+			"</span>",
+
+			"\n<!-- Call this script after bootstrap.bundle.min.js CDN -->",
+			"<script>",
+				"\tvar popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle=\"popover\"]'));",
+				"\tvar popoverList = popoverTriggerList.map(function (popoverTriggerEl) {",
+					"\t\treturn new bootstrap.Popover(popoverTriggerEl);",
+				"\t});",
+			"</script>"
+		],
+		"description": "b5-popover-disable"
+	},
+
+	"Bootstrap 5 Progress": {
+		"prefix": "b5-progress",
+		"body": [
+			"<div class=\"progress\">",
+				"\t<div class=\"progress-bar bg-${2|primary,secondary,success,danger,warning,info,light,dark|} ${3|progress-bar-striped, |} ${4|progress-bar-animated, |}\" role=\"progressbar\" style=\"width: ${1:25}%;\" aria-valuenow=\"${1:25}\" aria-valuemin=\"0\" aria-valuemax=\"100\">${1:25}%</div>",
+			"</div>"
+		],
+		"description": "b5-progress"
+	},
+
+	"Bootstrap 5 Progress Multiple": {
+		"prefix": "b5-progress-multiple",
+		"body": [
+			"<div class=\"progress\">",
+				"\t<div class=\"progress-bar\" role=\"progressbar\" style=\"width: 15%\" aria-valuenow=\"15\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>",
+				"\t<div class=\"progress-bar bg-success\" role=\"progressbar\" style=\"width: 30%\" aria-valuenow=\"30\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>",
+				"\t<div class=\"progress-bar bg-info\" role=\"progressbar\" style=\"width: 20%\" aria-valuenow=\"20\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>",
+			"</div>"
+		],
+		"description": "b5-progress-multiple"
+	},
+
+	"Bootstrap 5 Spinner": {
+		"prefix": "b5-spinner",
+		"body": [
+			"<div class=\"spinner-border text-${1|primary,secondary,success,danger,warning,info,light,dark|}\" role=\"status\">",
+				"\t<span class=\"visually-hidden\">${2:Loading...}</span>",
+			"</div>"
+		],
+		"description": "b5-spinner"
+	},
+
+	"Bootstrap 5 Spinner Growing": {
+		"prefix": "b5-spinner-growing",
+		"body": [
+			"<div class=\"spinner-grow text-${1|primary,secondary,success,danger,warning,info,light,dark|}\" role=\"status\">",
+				"\t<span class=\"visually-hidden\">${2:Loading...}</span>",
+			"</div>"
+		],
+		"description": "b5-spinner-growing"
+	},
+	
+	"Bootstrap 5 Spinner Buttons": {
+		"prefix": "b5-spinner-buttons",
+		"body": [
+			"<button class=\"btn btn-primary\" type=\"button\" disabled>",
+			"\t<span class=\"spinner-border spinner-border-sm\" role=\"status\" aria-hidden=\"true\"></span>",
+			"\t<span class=\"visually-hidden\">Loading...</span>",
+			"</button>",
+			"<button class=\"btn btn-primary\" type=\"button\" disabled>",
+			"\t<span class=\"spinner-border spinner-border-sm\" role=\"status\" aria-hidden=\"true\"></span>",
+			"\tLoading...",
+			"</button>"
+		],
+		"description": "b5-spinner-buttons"
+	},
+
+	"Bootstrap 5 Spinner Growing Buttons": {
+		"prefix": "b5-spinner-growing-buttons",
+		"body": [
+			"<button class=\"btn btn-primary\" type=\"button\" disabled>",
+				"\t<span class=\"spinner-grow spinner-grow-sm\" role=\"status\" aria-hidden=\"true\"></span>",
+				"\t<span class=\"visually-hidden\">Loading...</span>",
+			"</button>",
+			"<button class=\"btn btn-primary\" type=\"button\" disabled>",
+				"\t<span class=\"spinner-grow spinner-grow-sm\" role=\"status\" aria-hidden=\"true\"></span>",
+				"\tLoading...",
+			"</button>"
+		],
+		"description": "b5-spinner-growing-buttons"
 	}
 }

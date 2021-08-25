@@ -1,0 +1,36 @@
+{
+    "Bootstrap 5 Offcanvas": {
+		"prefix": "b5-offcanvas",
+		"body": [
+			"<a class=\"btn btn-primary\" data-bs-toggle=\"offcanvas\" href=\"#offcanvasExample\" role=\"button\" aria-controls=\"offcanvasExample\">",
+				"\tLink with href",
+			"</a>",
+			"<button class=\"btn btn-primary\" type=\"button\" data-bs-toggle=\"offcanvas\" data-bs-target=\"#offcanvasExample\" aria-controls=\"offcanvasExample\">",
+				"\tButton with data-bs-target",
+			"</button>",
+
+			"\n<div class=\"offcanvas offcanvas-${1|start,end,top,bottom|}\" data-bs-scroll=\"${2|true,false|}\" data-bs-backdrop=\"${3|true,false|}\" tabindex=\"-1\" id=\"offcanvasExample\" aria-labelledby=\"offcanvasExampleLabel\">",
+				"\t<div class=\"offcanvas-header\">",
+					"\t\t<h5 class=\"offcanvas-title\" id=\"offcanvasExampleLabel\">Offcanvas</h5>",
+					"\t\t<button type=\"button\" class=\"btn-close text-reset\" data-bs-dismiss=\"offcanvas\" aria-label=\"Close\"></button>",
+				"\t</div>",
+				"\t<div class=\"offcanvas-body\">",
+					"\t\t<div>",
+						"\t\t\tSome text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.",
+					"\t\t</div>",
+					"\t\t<div class=\"dropdown mt-3\">",
+						"\t\t\t<button class=\"btn btn-secondary dropdown-toggle\" type=\"button\" id=\"dropdownMenuButton\" data-bs-toggle=\"dropdown\">",
+							"\t\t\t\tDropdown button",
+						"\t\t\t</button>",
+						"\t\t\t<ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenuButton\">",
+							"\t\t\t\t<li><a class=\"dropdown-item\" href=\"#\">Action</a></li>",
+							"\t\t\t\t<li><a class=\"dropdown-item\" href=\"#\">Another action</a></li>",
+							"\t\t\t\t<li><a class=\"dropdown-item\" href=\"#\">Something else here</a></li>",
+						"\t\t\t</ul>",
+					"\t\t</div>",
+				"\t</div>",
+			"</div>"
+		],
+		"description": "b5-offcanvas"
+	}
+}

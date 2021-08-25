@@ -1,0 +1,21 @@
+{
+    "Bootstrap 5 Pagination": {
+		"prefix": "b5-pagination",
+		"body": [
+			"<nav aria-label=\"Page navigation example\">",
+				"\t<ul class=\"pagination justify-content-${1|start,center,end|}\">",
+					"\t\t<li class=\"page-item disabled\">",
+						"\t\t\t<a class=\"page-link\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">Previous</a>",
+					"\t\t</li>",
+					"\t\t<li class=\"page-item active\"><a class=\"page-link\" href=\"#\">1</a></li>",
+					"\t\t<li class=\"page-item\"><a class=\"page-link\" href=\"#\">2</a></li>",
+					"\t\t<li class=\"page-item\"><a class=\"page-link\" href=\"#\">3</a></li>",
+					"\t\t<li class=\"page-item\">",
+						"\t\t\t<a class=\"page-link\" href=\"#\">Next</a>",
+					"\t\t</li>",
+				"\t</ul>",
+			"</nav>"
+		],
+		"description": "b5-pagination"
+	}
+}

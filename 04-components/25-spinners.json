@@ -1,0 +1,51 @@
+{
+    "Bootstrap 5 Spinner": {
+		"prefix": "b5-spinner",
+		"body": [
+			"<div class=\"spinner-border text-${1|primary,secondary,success,danger,warning,info,light,dark|}\" role=\"status\">",
+				"\t<span class=\"visually-hidden\">${2:Loading...}</span>",
+			"</div>"
+		],
+		"description": "b5-spinner"
+	},
+
+	"Bootstrap 5 Spinner Growing": {
+		"prefix": "b5-spinner-growing",
+		"body": [
+			"<div class=\"spinner-grow text-${1|primary,secondary,success,danger,warning,info,light,dark|}\" role=\"status\">",
+				"\t<span class=\"visually-hidden\">${2:Loading...}</span>",
+			"</div>"
+		],
+		"description": "b5-spinner-growing"
+	},
+	
+	"Bootstrap 5 Spinner Buttons": {
+		"prefix": "b5-spinner-buttons",
+		"body": [
+			"<button class=\"btn btn-primary\" type=\"button\" disabled>",
+			"\t<span class=\"spinner-border spinner-border-sm\" role=\"status\" aria-hidden=\"true\"></span>",
+			"\t<span class=\"visually-hidden\">Loading...</span>",
+			"</button>",
+			"<button class=\"btn btn-primary\" type=\"button\" disabled>",
+			"\t<span class=\"spinner-border spinner-border-sm\" role=\"status\" aria-hidden=\"true\"></span>",
+			"\tLoading...",
+			"</button>"
+		],
+		"description": "b5-spinner-buttons"
+	},
+
+	"Bootstrap 5 Spinner Growing Buttons": {
+		"prefix": "b5-spinner-growing-buttons",
+		"body": [
+			"<button class=\"btn btn-primary\" type=\"button\" disabled>",
+				"\t<span class=\"spinner-grow spinner-grow-sm\" role=\"status\" aria-hidden=\"true\"></span>",
+				"\t<span class=\"visually-hidden\">Loading...</span>",
+			"</button>",
+			"<button class=\"btn btn-primary\" type=\"button\" disabled>",
+				"\t<span class=\"spinner-grow spinner-grow-sm\" role=\"status\" aria-hidden=\"true\"></span>",
+				"\tLoading...",
+			"</button>"
+		],
+		"description": "b5-spinner-growing-buttons"
+	}
+}

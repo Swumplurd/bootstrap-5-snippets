@@ -1,0 +1,51 @@
+{
+    "Bootstrap 5 Popover": {
+		"prefix": "b5-popover",
+		"body": [
+			"<button type=\"button\" class=\"btn btn-primary\" data-bs-toggle=\"popover\" data-bs-placement=\"${1|top,right,bottom,left|}\" title=\"${2:Popover title}\" data-bs-content=\"${3:And here's some amazing content. It's very engaging. Right?}\">${4:Click to toggle popover}</button>",
+
+			"\n<!-- Call this script after bootstrap.bundle.min.js CDN -->",
+			"<script>",
+				"\tvar popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle=\"popover\"]'));",
+				"\tvar popoverList = popoverTriggerList.map(function (popoverTriggerEl) {",
+					"\t\treturn new bootstrap.Popover(popoverTriggerEl);",
+				"\t});",
+			"</script>"
+		],
+		"description": "b5-popover"
+	},
+
+	"Bootstrap 5 Popover Dismissible": {
+		"prefix": "b5-popover-dismissible",
+		"body": [
+			"<a tabindex=\"0\" class=\"btn btn-primary\" role=\"button\" data-bs-toggle=\"popover\" data-bs-placement=\"${1|top,right,bottom,left|}\" data-bs-trigger=\"focus\" title=\"${2:Dismissible popover}\" data-bs-content=\"${3:And here's some amazing content. It's very engaging. Right?}\">${4:Dismissible popover}</a>",
+
+			"\n<!-- Call this script after bootstrap.bundle.min.js CDN -->",
+			"<script>",
+				"\tvar popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle=\"popover\"]'));",
+				"\tvar popoverList = popoverTriggerList.map(function (popoverTriggerEl) {",
+					"\t\treturn new bootstrap.Popover(popoverTriggerEl);",
+				"\t});",
+			"</script>"
+		],
+		"description": "b5-popover-dismissible"
+	},
+
+	"Bootstrap 5 Popover Disable": {
+		"prefix": "b5-popover-disable",
+		"body": [
+			"<span class=\"d-inline-block\" tabindex=\"0\" data-bs-toggle=\"popover\" data-bs-placement=\"${1|top,right,bottom,left|}\" data-bs-trigger=\"hover focus\" data-bs-content=\"${2:Disabled popover}\">",
+				"\t<button class=\"btn btn-primary\" type=\"button\" disabled>Disabled button</button>",
+			"</span>",
+
+			"\n<!-- Call this script after bootstrap.bundle.min.js CDN -->",
+			"<script>",
+				"\tvar popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle=\"popover\"]'));",
+				"\tvar popoverList = popoverTriggerList.map(function (popoverTriggerEl) {",
+					"\t\treturn new bootstrap.Popover(popoverTriggerEl);",
+				"\t});",
+			"</script>"
+		],
+		"description": "b5-popover-disable"
+	}
+}
