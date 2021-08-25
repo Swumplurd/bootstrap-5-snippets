@@ -2306,5 +2306,82 @@
 			"</button>"
 		],
 		"description": "b5-spinner-growing-buttons"
+	},
+
+	"Bootstrap 5 Toasts": {
+		"prefix": "b5-toast",
+		"body": [
+			"<button type=\"button\" onclick=\"showToast()\" class=\"btn btn-primary\" id=\"liveToastBtn\">Show live toast</button>",
+
+			"\n<div class=\"position-fixed bottom-0 end-0 p-3\" style=\"z-index: 11\">",
+				"\t<div id=\"liveToast\" class=\"toast hide\" role=\"alert\" aria-live=\"assertive\" aria-atomic=\"true\">",
+					"\t\t<div class=\"toast-header\">",
+						"\t\t\t<img src=\"...\" class=\"rounded me-2\" alt=\"...\">",
+						"\t\t\t<strong class=\"me-auto\">Bootstrap</strong>",
+						"\t\t\t<small>11 mins ago</small>",
+						"\t\t\t<button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"toast\" aria-label=\"Close\"></button>",
+					"\t\t</div>",
+					"\t\t<div class=\"toast-body\">",
+						"\t\t\tHello, world! This is a toast message.",
+					"\t\t</div>",
+				"\t</div>",
+			"</div>",
+
+			"\n<!-- Call this script after bootstrap.bundle.min.js CDN -->",
+			"<script>",
+				"\tfunction showToast() {",
+					"\t\tvar toastDOMElement = document.getElementById(\"liveToast\");",
+					"\t\tvar myToast = new bootstrap.Toast(toastDOMElement);",
+					"\t\tmyToast.show();",
+				"\t}",
+			"</script>"
+		],
+		"description": "b5-toast"
+	},
+
+	"Bootstrap 5 Toasts Custom": {
+		"prefix": "b5-toast-custom",
+		"body": [
+			"<button type=\"button\" onclick=\"showToast()\" class=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark|}\" id=\"liveToastBtn\">Show live toast</button>",
+
+			"\n<div class=\"position-fixed bottom-0 end-0 p-3\" style=\"z-index: 11\">",
+				"\t<div id=\"liveToast\" class=\"toast align-items-center text-${2|white,dark|} bg-${1|primary,secondary,success,danger,warning,info,light,dark|} border-0\" role=\"alert\" aria-live=\"assertive\" aria-atomic=\"true\">",
+					"\t\t<div class=\"d-flex\">",
+						"\t\t\t<div class=\"toast-body\">",
+							"\t\t\t\tHello, world! This is a toast message.",
+						"\t\t\t</div>",
+						"\t\t\t<button type=\"button\" class=\"btn-close btn-close-white me-2 m-auto\" data-bs-dismiss=\"toast\" aria-label=\"Close\"></button>",
+					"\t\t</div>",
+				"\t</div>",
+			"</div>",
+
+			"\n<!-- Call this script after bootstrap.bundle.min.js CDN -->",
+			"<script>",
+				"\tfunction showToast() {",
+					"\t\tvar toastDOMElement = document.getElementById(\"liveToast\");",
+					"\t\tvar myToast = new bootstrap.Toast(toastDOMElement);",
+					"\t\tmyToast.show();",
+				"\t}",
+			"</script>"
+		],
+		"description": "b5-toast-custom"
+	},
+
+	"Bootstrap 5 Tooltips": {
+		"prefix": "b5-tooltip",
+		"body": [
+			"<button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"${1|top,right,bottom,left|}\" title=\"Tooltip on ${1|top,right,bottom,left|}\">",
+				"Tooltip on ${1|top,right,bottom,left|}",
+			"</button>",
+
+			"\n<!-- Call this script after bootstrap.bundle.min.js CDN -->",
+			"<script>",
+				"\tvar tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle=\"tooltip\"]'))",
+				"\tvar tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {",
+					"\treturn new bootstrap.Tooltip(tooltipTriggerEl)",
+				"\t})",
+			"</script>"
+		],
+		"description": "b5-tooltip"
 	}
 }
