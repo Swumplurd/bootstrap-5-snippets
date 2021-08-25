@@ -2010,5 +2010,81 @@
 			"</div>"
 		],
 		"description": "b5-modal-static-backdrop"
+	},
+
+	"Bootstrap 5 Nav Base": {
+		"prefix": "b5-nav-base",
+		"body": [
+			"<ul class=\"nav ${1| ,justify-content-center,justify-content-end|} ${2| ,flex-column|}\">",
+				"\t<li class=\"nav-item\">",
+					"\t\t<a class=\"nav-link active\" aria-current=\"page\" href=\"#\">Active</a>",
+				"\t</li>",
+				"\t<li class=\"nav-item\">",
+					"\t\t<a class=\"nav-link\" href=\"#\">Link</a>",
+				"\t</li>",
+				"\t<li class=\"nav-item\">",
+					"\t\t<a class=\"nav-link\" href=\"#\">Link</a>",
+				"\t</li>",
+				"\t<li class=\"nav-item\">",
+					"\t\t<a class=\"nav-link disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">Disabled</a>",
+				"\t</li>",
+			"</ul>"
+		],
+		"description": "b5-nav-base"
+	},
+
+	"Bootstrap 5 Nav": {
+		"prefix": "b5-nav",
+		"body": [
+			"<nav class=\"nav ${1| ,nav-tabs,nav-pills|} ${2| ,nav-fill,nav-justified|} ${3| ,justify-content-center,justify-content-end|} ${4| ,flex-column|}\">",
+				"\t<a class=\"nav-link active\" aria-current=\"page\" href=\"#\">Active</a>",
+				"\t<a class=\"nav-link\" href=\"#\">Link</a>",
+				"\t<a class=\"nav-link\" href=\"#\">Link</a>",
+				"\t<a class=\"nav-link disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">Disabled</a>",
+			"</nav>"
+		],
+		"description": "b5-nav"
+	},
+
+	"Bootstrap 5 Nav Tab": {
+		"prefix": "b5-nav-tab",
+		"body": [
+			"<ul class=\"nav nav-tabs ${1| ,nav-fill,nav-justified|}\">",
+				"\t<li class=\"nav-item\">",
+					"\t\t<a class=\"nav-link active\" aria-current=\"page\" href=\"#\">Active</a>",
+				"\t</li>",
+				"\t<li class=\"nav-item\">",
+					"\t\t<a class=\"nav-link\" href=\"#\">Link</a>",
+				"\t</li>",
+				"\t<li class=\"nav-item\">",
+					"\t\t<a class=\"nav-link\" href=\"#\">Link</a>",
+				"\t</li>",
+				"\t<li class=\"nav-item\">",
+					"\t\t<a class=\"nav-link disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">Disabled</a>",
+				"\t</li>",
+			"</ul>"
+		],
+		"description": "b5-nav-tab"
+	},
+
+	"Bootstrap 5 Nav pill": {
+		"prefix": "b5-nav-pill",
+		"body": [
+			"<ul class=\"nav nav-pills ${1| ,nav-fill,nav-justified|}\">",
+				"\t<li class=\"nav-item\">",
+					"\t\t<a class=\"nav-link active\" aria-current=\"page\" href=\"#\">Active</a>",
+				"\t</li>",
+				"\t<li class=\"nav-item\">",
+					"\t\t<a class=\"nav-link\" href=\"#\">Link</a>",
+				"\t</li>",
+				"\t<li class=\"nav-item\">",
+					"\t\t<a class=\"nav-link\" href=\"#\">Link</a>",
+				"\t</li>",
+				"\t<li class=\"nav-item\">",
+					"\t\t<a class=\"nav-link disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">Disabled</a>",
+				"\t</li>",
+			"</ul>"
+		],
+		"description": "b5-nav-pill"
 	}
 }
